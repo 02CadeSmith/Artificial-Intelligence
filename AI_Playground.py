@@ -26,6 +26,6 @@ def get_weather(api_key, city):
         print("Failed to fetch weather data. Please check the city name.")
 
 if __name__ == "__main__":
-    api_key = "c72536606abcb0d02109180816245d11"  # Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
+    api_key = "API Key Here"  # Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
     city = "Detroit"  # You can change this to any city in Michigan
     get_weather(api_key, city)
